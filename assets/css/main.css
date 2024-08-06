@@ -2391,7 +2391,7 @@ input, select, textarea {
 				position: relative;
 				display: block;
 				text-decoration: none;
-				color: #6b7770;
+				color: black;
 				top: -6px;
 				padding: 6px 1.5em 0.25em 1.5em;
 				border-bottom-left-radius: 6px;
@@ -2404,24 +2404,24 @@ input, select, textarea {
 			}
 
 			#nav li:hover a, #nav li:hover span {
-				background: #C1CAC5;
-				color: #fff;
+				background: purple;
+				color: white;
 			}
 
 			#nav li.active a, #nav li.active span {
-				background: #C1CAC5;
-				color: #fff;
+				background: black;
+				color: white;
 			}
 
 			#nav li.current a {
 				background: black;
-				color: #fff;
+				color: white;
 			}
 
 	.dropotron {
 		list-style: none;
-		background: #6B7770;
-		color: #fff;
+		background: gray;
+		color: white;
 		border-radius: 6px;
 		line-height: 2.75em;
 		text-align: center;
@@ -2441,19 +2441,19 @@ input, select, textarea {
 
 			.dropotron li > a, .dropotron li > span {
 				display: block;
-				color: #D7DAD8;
+				color: black;
 				text-decoration: none;
 				padding: 0 1.25em;
 			}
 
 			.dropotron li:hover > a, .dropotron li:hover > span {
-				color: #fff;
-				background: #7B8780;
+				color: white;
+				background:black;
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span {
-				color: #fff;
-				background: #7B8780;
+				color: black;
+				background: purple;
 			}
 
 			.dropotron li:first-child {
@@ -2542,8 +2542,8 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #11020ba5;
-		border-bottom: solid 5px #c1cac5;
+		/* border-top: solid 5px #11020ba5;
+		border-bottom: solid 5px #c1cac5; */
 		border-top-width: 35px;
 		border-bottom-width: 10px;
 		padding: 4em 0 0em 0;
